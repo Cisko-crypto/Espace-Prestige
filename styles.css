@@ -784,3 +784,790 @@ display: inline-block;
 color: #a569bd;
 transform: scale(1.2);
 }
+
+body {
+background-color: #f5f5f5;
+font-family: "Segoe UI", sans-serif;
+color: #333;
+margin: 0;
+padding: 0;
+
+}
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem 0;
+}
+.navbar-brand {
+font-weight: bold;
+font-size: 1.5em;
+color: #8e44ad;
+
+}
+
+.navbar-nav .nav-link {
+color: #ffffff;
+font-weight: bold;
+margin-left: 15px;
+transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover{
+color: purple;
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-toggler:focus {
+  box-shadow: none;
+}
+
+.footer, .contact-section {
+width: 100%;
+background-color: #343a40;
+}
+
+ /* Styles supplémentaires pour la navigation et responsive */
+nav.navbar {
+background: linear-gradient(135deg, #3a3a3a, #5e5e5e);
+}
+.footer p {
+color: white;
+margin: 0;
+padding: 1rem 0;
+}
+/* video */
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+}
+
+.video-container video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+section h3,
+section h4 {
+font-weight: bold;
+}
+
+/* Section apres la banniére */
+.titre {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    color: purple;
+}
+
+.titre h1 {
+font-size: 48px;
+margin-bottom: 20px;
+letter-spacing: 2px;
+}
+.titre p {
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 40px;
+color: #555;
+}
+
+/* section Accueil*/
+.accueil {
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+}
+.accueil h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: purple;
+}
+
+.accueil p {
+font-size: 1.3em;
+max-width: 700px;
+margin-bottom: 40px;
+color: #ddd;
+}
+.accueil a {
+background-color: transparent;
+border: 2px solid purple;
+color: purple;
+padding: 12px 30px;
+text-decoration: none;
+font-size: 1em;
+border-radius: 30px;
+transition: all 0.3s ease-in-out;
+}
+
+.accueil a:hover {
+background-color: purple;
+color: #111;
+}
+
+/* Navbar */
+
+.navbar .navbar-brand {
+background-color: #eeeeee;
+color: plum;
+padding: 15px;
+
+}
+
+.navbar ul li a {
+color: purple;
+text-decoration: none;
+font-weight: bold;
+}
+.navbar ul li a\:hover{
+color: blue;
+}
+/* video */
+
+.video-container {
+width: 100%;
+max-height: 600px;
+overflow: hidden;
+position: relative;
+}
+
+.video-container {
+width: 100%;
+height: auto;
+display: block;
+}
+/* Section apres la banniére */
+.titre {
+text-align: center;
+padding: 60px 20px;
+background-color: #f5f5f5;
+color: purple;
+}
+
+.titre h1 {
+font-size: 48px;
+margin-bottom: 20px;
+letter-spacing: 2px;
+}
+.titre p {
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 40px;
+color: #555;
+}
+
+/* section A propos */
+
+.about-section {
+background-color: #f5f5f5;
+padding: 60px 20px;
+color: #333;
+display: flex;
+justify-content: center;
+}
+
+.about-content {
+max-width: 900px;
+margin: auto;
+background-color: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.titre-purple {
+color: #9370DB; 
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+.about-content h3 {
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+color: #8e44ad;
+}
+
+.about-content p {
+font-size: 18px;
+line-height: 1.8;
+margin-bottom: 20px;
+}
+
+.about-content ul {
+margin-left: 20px;
+margin-bottom: 30px;
+}
+
+.about-content ul li {
+font-size: 17px;
+line-height: 1.6;
+list-style-type: disc;
+}
+.h3-titre-purple {
+text-align: center;
+color: #8e44ad;
+font-weight: 700;
+font-size: 2.2rem;
+margin-bottom: 40px;
+animation: fadeSlideIn 1s ease-out;
+}
+
+@keyframes fadeSlideIn {
+from {
+opacity: 0;
+transform: translateY(25px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* section Mes Services */
+
+  /* Boutique */
+
+.services-section {
+background-color: #f5f5f5;
+padding: 60px 20px;
+color: #1a1a1a;
+}
+
+.services-container {
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+}
+
+.services-container h3 {
+font-size: 36px;
+margin-bottom: 40px;
+text-transform: uppercase;
+color: purple;
+}
+
+.service-box {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+padding: 30px 25px;
+margin-bottom: 30px;
+text-align: left;
+}
+
+.service-box h4 {
+font-size: 24px;
+color: plum;
+margin-bottom: 10px;
+}
+
+.service-box p {
+font-size: 16px;
+line-height: 1.6;
+color: #444;
+}
+
+/*service boutique*/
+
+.EP-Boutique {
+text-align: center;
+color: #9370DB;
+font-weight: bold;
+font-size: 1.8rem;
+margin-bottom: 30px;
+animation: sliden 1s ease-out;
+}
+
+h4 {
+  color: #9370DB;
+}
+/* animation douce */
+@keyframes slideIn {
+from {
+oppacity: 0;
+transform: translateY(20px);
+
+}
+to {
+oppacity: 1s;
+transform: translateY(0);
+}
+}
+/* BTP*/
+
+.service-box {
+background-color: #fff;
+padding: 40px;
+margin: 40px auto;
+max-width: 1000px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.titre-purple {
+color: #9370DB; 
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.EP-Boutique {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+  .service-box p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Carousel*/
+
+.carousel {
+margin-top: 30px;
+border-radius: 10px;
+overflow: hidden;
+}
+.carousel-inner img {
+height: 400px;
+object-fit: cover;
+}
+@media (max-width: 768px) {
+.carousel-inner img {
+height: 250px;
+ }
+}
+
+/* Premiére projet BTP */
+h2 {
+color: #9370DB;
+margin-top: 40px;
+text-align: center;
+}
+
+ .before-after-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+ .before-after-container img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*  card Daara Moderne */
+
+.daara-section .card-img-top {
+height: 400px;
+object-fit: cover;
+border-top-left-radius: 1rem;
+border-top-right-radius: 1rem;
+}
+
+.card-text {
+line-height: 1.6;
+color: #333;
+}
+
+/* video Daara moderne */
+
+.video-container {
+background: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+video {
+width: 100%;
+height: auto;
+}
+
+/* Contact*/
+
+.contact-section {
+background-color: #0a1a2f;
+padding: 60px 0;
+color: #fff;
+}
+
+.h3-titre-purple {
+text-align: center;
+color: #8e44ad;
+font-weight: 700;
+font-size: 2.2rem;
+margin-bottom: 40px;
+animation: fadeSlideIn 1s ease-out;
+}
+
+@keyframes fadeSlideIn {
+from {
+opacity: 0;
+transform: translateY(25px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.btn-purple {
+background-color: #8e44ad;
+color: white;
+border: none;
+}
+.btn-purple\:hover {
+background-color: #732d91;
+}
+
+.social-links i {
+font-size: 24px;
+color: #8e44ad;
+transition: color 0.3s ease;
+}
+.social-links i\:hover {
+color: #5c6bc0;
+}
+
+/* Footer */
+
+.footer {
+background-color: black;
+color: purple;
+padding: 20px;
+font-size: 14px;
+}
+
+/* Reseaux sociaux contact */
+
+.social-links  {
+background-color: #0a1a2f;
+padding: 20px;
+border-radius: 8px;
+color: #8e44ad;
+display: inline-block;
+}
+
+.social-links i\:hover {
+color: #a569bd;
+transform: scale(1.2);
+}
+
+
+/* section A propos */
+
+.about-section {
+background-color: #f5f5f5;
+padding: 60px 20px;
+color: #333;
+display: flex;
+justify-content: center;
+}
+
+.about-content {
+max-width: 900px;
+margin: auto;
+background-color: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.titre-purple {
+color: #9370DB;
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+.about-content h3 {
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+color: #8e44ad;
+}
+
+.about-content p {
+font-size: 18px;
+line-height: 1.8;
+margin-bottom: 20px;
+}
+
+.about-content ul {
+margin-left: 20px;
+margin-bottom: 30px;
+}
+
+.about-content ul li {
+font-size: 17px;
+line-height: 1.6;
+list-style-type: disc;
+}
+.h3-titre-purple {
+text-align: center;
+color: #8e44ad;
+font-weight: 700;
+font-size: 2.2rem;
+margin-bottom: 40px;
+animation: fadeSlideIn 1s ease-out;
+}
+
+@keyframes fadeSlideIn {
+from {
+opacity: 0;
+transform: translateY(25px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* section Mes Services */
+
+
+/* Boutique */
+
+.services-section {
+background-color: #f5f5f5;
+padding: 60px 20px;
+color: #1a1a1a;
+}
+
+.services-container {
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+}
+
+.services-container h3 {
+font-size: 36px;
+margin-bottom: 40px;
+text-transform: uppercase;
+color: purple;
+}
+
+.service-box {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+padding: 30px 25px;
+margin-bottom: 30px;
+text-align: left;
+}
+
+.service-box h4 {
+font-size: 24px;
+color: plum;
+margin-bottom: 10px;
+}
+
+.service-box p {
+font-size: 16px;
+line-height: 1.6;
+color: #444;
+}
+
+/*service boutique*/
+.EP-Boutique {
+text-align: center;
+color: #CCCCFF;
+font-weight: bold;
+font-size: 1.8rem;
+margin-bottom: 30px;
+animation: sliden 1s ease-out;
+}
+/* animation douce */
+@keyframes slideIn {
+from {
+oppacity: 0;
+transform: translateY(20px);
+
+}
+to {
+oppacity: 1s;
+transform: translateY(0);
+}
+}
+/* BTP*/
+
+.service-box {
+background-color: #fff;
+padding: 40px;
+margin: 40px auto;
+max-width: 1000px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.titre-purple {
+color: #9370DB; 
+font-size: 28px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+
+.EP-Boutique {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+  .service-box p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Carousel *
+
+.carousel {
+margin-top: 30px;
+border-radius: 10px;
+overflow: hidden;
+}
+.carousel-inner img {
+height: 400px;
+object-fit: cover;
+}
+
+
+/* Premiére projet BTP */
+
+h2 {
+color: #9370DB;
+margin-top: 40px;
+text-align: center;
+}
+
+ .before-after-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+ .before-after-container img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/*  card Daara Moderne */
+
+.daara-section .card-img-top {
+height: 400px;
+object-fit: cover;
+border-top-left-radius: 1rem;
+border-top-right-radius: 1rem;
+}
+
+.card-text {
+line-height: 1.6;
+color: #333;
+}
+
+/* video Daara moderne */
+
+.video-container {
+background: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+video {
+width: 100%;
+height: auto;
+}
+
+\* Contact\*
+
+.contact-section {
+background-color: #0a1a2f;
+padding: 60px 0;
+color: #fff;
+}
+
+.h3-titre-purple {
+text-align: center;
+color: #8e44ad;
+font-weight: 700;
+font-size: 2.2rem;
+margin-bottom: 40px;
+animation: fadeSlideIn 1s ease-out;
+}
+
+@keyframes fadeSlideIn {
+from {
+opacity: 0;
+transform: translateY(25px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.btn-purple {
+background-color: #8e44ad;
+color: white;
+border: none;
+}
+.btn-purple\:hover {
+background-color: #732d91;
+}
+
+.social-links i {
+font-size: 24px;
+color: #8e44ad;
+transition: color 0.3s ease;
+}
+.social-links i\:hover {
+color: #5c6bc0;
+}
+
+/* Footer */
+
+.footer {
+background-color: black;
+color: white;
+padding: 20px;
+font-size: 14px;
+width: 100%;
+margin: 0;
+}
+
+/* Reseaux sociaux contact */
+
+.social-links  {
+background-color: #0a1a2f;
+padding: 20px;
+border-radius: 8px;
+color: #8e44ad;
+display: inline-block;
+}
+
+.social-links i\:hover {
+color: #a569bd;
+transform: scale(1.2);
+}
